@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      database: test-data-mongodb #实测：如果不指定默认是test。database如果不存在就会自动创建。
+      host: localhost
+      port: 27017
